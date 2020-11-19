@@ -18,8 +18,10 @@
       <img id="wik01" src="https://nicnic-peach.github.io/aframe-environment/assets/wik_forest.jpg" />
    </a-assets>
 	  
-	  <a-entity geometry="primitive: cylinder" scale="53.69 1 54.64" material="color: #d4b996ff; src:"#skyLeaves"></a-entity>
+	  <a-entity geometry="primitive: cylinder" scale="53.69 1 54.64" material="color: #d4b996ff; src: [object HTMLImageElement]" #skyleaves"=""></a-entity>
     <a-sky id="background" src="#skyLeaves" theta-length="90" radius="30" position="0 -13.82849 0" material="" geometry="" scale="-2 2 2"></a-sky>
+																	 
+	<a-curvedimage src="#wik01" radius="5.7" theta-length="180" height="9" position="0 8.3 14.9" rotation="0 -90 0" scale="0.48 0.88 0.62" material="" geometry="height: 8.33; radius: 9.09; thetaLength: 160" id="forestInfo"></a-curvedimage>																 
 
   </a-scene>
       
